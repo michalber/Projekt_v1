@@ -1,0 +1,121 @@
+﻿<Page
+    x:Class="Projekt_v1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Projekt_v1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"    
+    >
+
+    <Grid Background="#33FFFFFF" Padding="30">
+        <StackPanel x:ConnectionId='1' x:Name="contentPanel" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel x:ConnectionId='2' x:Name="InputPanel" Orientation="Horizontal" Margin="0,10,0,5" HorizontalAlignment="Center" Height="40">
+                <TextBox x:ConnectionId='49' x:Name="Input" Width="350" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel x:ConnectionId='3' x:Name="OutputPanel" Orientation="Horizontal" Margin="0,5,0,20" HorizontalAlignment="Center">
+                <TextBox x:ConnectionId='48' x:Name="Output" Width="350" HorizontalAlignment="Center" Height="40"/>
+            </StackPanel>
+
+            <StackPanel x:ConnectionId='4' x:Name="NumbersPanel0" Orientation="Horizontal">
+                <AppBarButton x:ConnectionId='45' Icon="Back"                        Width="116" Height="50" Background="#33FFFFFF" />
+                <Button x:ConnectionId='46' x:Name="ButtonClr" Content="Clr"                         Width="116" Height="50"/>
+                <Button x:ConnectionId='47' x:Name="ButtonAns" Content="Ans"                         Width="116" Height="50"/>
+            </StackPanel>
+
+            <StackPanel x:ConnectionId='5' x:Name="NumbersPanel1" Orientation="Horizontal">
+                <Button x:ConnectionId='39' x:Name="ButtonHEX" Content="0x"                         Width="58" Height="40"/>
+                <Button x:ConnectionId='40' x:Name="Button1" Content="1"                       Width="58" Height="40"/>
+                <Button x:ConnectionId='41' x:Name="Button2" Content="2"                       Width="58" Height="40"/>
+                <Button x:ConnectionId='42' x:Name="Button3" Content="3"                       Width="58" Height="40"/>
+                
+                <Button x:ConnectionId='43' x:Name="ButtonAdd" Content="+"                         Width="58" Height="40"/>
+                <Button x:ConnectionId='44' x:Name="ButtonLeftParan" Content="("                               Width="58" Height="40"/>
+            </StackPanel>
+            <StackPanel x:ConnectionId='6' x:Name="NumbersPanel2" Orientation="Horizontal">
+                <Button x:ConnectionId='33' x:Name="ButtonOCT" Content="ox"                         Width="58" Height="40"/>
+                <Button x:ConnectionId='34' x:Name="Button4" Content="4"                       Width="58" Height="40"/>
+                <Button x:ConnectionId='35' x:Name="Button5" Content="5"                       Width="58" Height="40"/>
+                <Button x:ConnectionId='36' x:Name="Button6" Content="6"                       Width="58" Height="40"/>
+
+                <Button x:ConnectionId='37' x:Name="ButtonSub" Content="-"                         Width="58" Height="40"/>
+                <Button x:ConnectionId='38' x:Name="ButtonRightParan" Content=")"                                Width="58" Height="40"/>
+                
+            </StackPanel>
+            <StackPanel x:ConnectionId='7' x:Name="NumbersPanel3" Orientation="Horizontal">
+                <Button x:ConnectionId='27' x:Name="ButtonBIN" Content="bx"                         Width="58" Height="40"/>
+                <Button x:ConnectionId='28' x:Name="Button7" Content="7"                       Width="58" Height="40"/>
+                <Button x:ConnectionId='29' x:Name="Button8" Content="8"                       Width="58" Height="40"/>
+                <Button x:ConnectionId='30' x:Name="Button9" Content="9"                       Width="58" Height="40"/>
+
+                <Button x:ConnectionId='31' x:Name="ButtonMult" Content="*"                          Width="58" Height="40"/>
+                <Button x:ConnectionId='32' x:Name="ButtonPow" Content="^"                         Width="58" Height="40"/>
+
+            </StackPanel>
+            <StackPanel x:ConnectionId='8' x:Name="NumbersPanel4" Orientation="Horizontal">
+                <Button x:ConnectionId='23' x:Name="Button" Width="58" Height="40"/>
+                <Button x:ConnectionId='24' x:Name="Button0" Content="0"                       Width="174" Height="40"/>
+
+                <Button x:ConnectionId='25' x:Name="ButtonDiv" Content="/"                         Width="58" Height="40"/>
+                <Button x:ConnectionId='26' x:Name="ButtonMod" Content="%"                         Width="58" Height="40"/>
+            </StackPanel>
+            <StackPanel x:ConnectionId='9' x:Name="NumbersPanel5" Orientation="Horizontal">
+                <Button x:ConnectionId='17' x:Name="ButtonA" Content="A"                       Width="58" Height="40" Background="#33FFFFFF"/>
+                <Button x:ConnectionId='18' x:Name="ButtonB" Content="B"                       Width="58" Height="40" Background="#33FFFFFF"/>
+                <Button x:ConnectionId='19' x:Name="ButtonC" Content="C"                       Width="58" Height="40" Background="#33FFFFFF"/>
+                <Button x:ConnectionId='20' x:Name="ButtonD" Content="D"                       Width="58" Height="40" Background="#33FFFFFF"/>
+                <Button x:ConnectionId='21' x:Name="ButtonE" Content="E"                       Width="58" Height="40" Background="#33FFFFFF"/>
+                <Button x:ConnectionId='22' x:Name="ButtonF" Content="F"                       Width="58" Height="40" Background="#33FFFFFF"/>
+            </StackPanel>
+
+            <StackPanel x:ConnectionId='10' x:Name="NumbersPanel6" Orientation="Horizontal">
+                <Button x:ConnectionId='16' x:Name="ButtonEqu" Content="="                         Width="348" Height="50" Background="#33FFFFFF"/>
+            </StackPanel>
+
+            <StackPanel x:ConnectionId='11' x:Name="ComboBoxPanel1" Orientation="Horizontal">
+                <ComboBox x:ConnectionId='14' x:Name="comboBox1" Width="174" Height="40" Background="#33FFFFFF"                                              >
+                    <ComboBoxItem Content="mm"/>
+                    <ComboBoxItem Content="cm"/>
+                    <ComboBoxItem Content="m"/>
+                    <ComboBoxItem Content="km"/>
+                    <ComboBoxItem Content="uin"/>
+                    <ComboBoxItem Content="in"/>
+                    <ComboBoxItem Content="ft"/>
+                    <ComboBoxItem Content="yd"/>
+                    <ComboBoxItem Content="mi"/>
+                    
+                    <ComboBoxItem Content="kg"/>
+                    <ComboBoxItem Content="g"/>
+                    <ComboBoxItem Content="mg"/>
+                    <ComboBoxItem Content="lb"/>
+                    <ComboBoxItem Content="oz"/>
+                    
+                    <ComboBoxItem Content="mW"/>
+                    <ComboBoxItem Content="W"/>
+                    <ComboBoxItem Content="dBm"/>
+                    <ComboBoxItem Content="dBW"/>
+                    <ComboBoxItem Content="mV"/>
+                    <ComboBoxItem Content="V"/>
+                    <ComboBoxItem Content="k"/>
+                    <ComboBoxItem Content="dB"/>
+                    
+                    <ComboBoxItem Content="F"/>
+                    <ComboBoxItem Content="C"/>
+                    <ComboBoxItem Content="K"/>
+                    
+                    <ComboBoxItem Content="BIN"/>
+                    <ComboBoxItem Content="OCT"/>
+                    <ComboBoxItem Content="HEX"/>
+                    <ComboBoxItem Content="DEC"/>
+                </ComboBox>
+
+                <ComboBox x:ConnectionId='15' x:Name="comboBox2" Width="174" Height="40" Background="#33FFFFFF"                                              >
+                    
+                </ComboBox>
+            </StackPanel>
+            <StackPanel x:ConnectionId='12' x:Name="Panel1" Orientation="Horizontal">
+                <Button x:ConnectionId='13' x:Name="ButtonConv" Content="Convert" Width="348" Height="50" Background="#33FFFFFF"                         />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
+

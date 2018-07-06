@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>baa21a56-f1a2-47ce-b836-74bbb22a589f</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>a5af4eac-3e0d-48f8-b3f3-6f0dc21b2c57</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Calculator.cpp" />
+    <ClCompile Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Calc\calcRPN.cpp" />
+    <ClCompile Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Calc\Infix2Postfix.cpp" />
+    <ClCompile Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Calc\NumbSysInterpreter.cpp" />
+    <ClCompile Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\Converter.cpp" />
+    <ClCompile Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\LengthConversion.cpp" />
+    <ClCompile Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\NumbSysConversion.cpp" />
+    <ClCompile Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\PowerConversion.cpp" />
+    <ClCompile Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\TempConversion.cpp" />
+    <ClCompile Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\WeightConversion.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Calculator.h" />
+    <ClInclude Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Calc\calcRPN.h" />
+    <ClInclude Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Calc\Infix2Postfix.h" />
+    <ClInclude Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Calc\NumbSysInterpreter.h" />
+    <ClInclude Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\Converter.h" />
+    <ClInclude Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\LengthConversion.h" />
+    <ClInclude Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\NumbSysConversion.h" />
+    <ClInclude Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\PowerConversion.h" />
+    <ClInclude Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\TempConversion.h" />
+    <ClInclude Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Calculator\Conversion\WeightConversion.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\Assets\CalcLogo_300_W.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Projekt_v1_TemporaryKey.pfx" />
+    <None Include="..\..\..\PO_18%27\Projekt_v1\Projekt_v1\ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+</Project>
